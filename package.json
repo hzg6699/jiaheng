@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "liquidjs": "^10.29.0",
+    "yaml": "^2.9.0"
+  },
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs"
+  }
+}
