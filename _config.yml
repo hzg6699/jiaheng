@@ -1,0 +1,22 @@
+{
+  "title": "Jiaheng Han",
+  "description": "Academic homepage of Jiaheng Han. Research in clinical nutrition, epidemiology, biostatistics, microbiota and food science.",
+  "baseurl": "",
+  "url": "https://jiaheng-han-academic.astute-bee-6315.chatgpt.site",
+  "markdown": "kramdown",
+  "plugins": [
+    "jekyll-email-protect"
+  ],
+  "collections": [
+    "publications",
+    "showcase"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    "package.json",
+    "pnpm-lock.yaml",
+    "scripts",
+    "README.md"
+  ]
+}

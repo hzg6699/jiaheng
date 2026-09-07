@@ -1,0 +1,110 @@
+{
+  "primary_name": "Jiaheng Han",
+  "secondary_name": "",
+  "navbar_name": "Jiaheng Han",
+  "positions": [
+    {
+      "name": "Epidemiology, Biostatistics, Nutrition, Food Science, Food Safety & Biochemistry"
+    },
+    {
+      "name": "The University of Hong Kong"
+    },
+    {
+      "name": "Macau University of Science and Technology"
+    }
+  ],
+  "email": "hzg6699@gmail.com",
+  "linkedin": "jiaheng-han-a4b36a318",
+  "short_bio_text_justify": false,
+  "short_bio": "<p>My background connects public health, clinical nutrition, and food science, with MPH training in Epidemiology and Biostatistics at The University of Hong Kong and a Bachelor of Food and Nutritional Sciences from Macau University of Science and Technology. I am interested in how diet, gut microbiota, and food quality shape metabolic health.</p><p>Across hospital, university, and industry settings, I have worked on dietary assessment in 618 cardiovascular inpatients, public health data management across 17 projects, probiotic interventions in obesity, and food preservation and safety. My skills include questionnaire-based research, anthropometric assessment, data validation, and statistical analysis using R, SPSS, and Excel. My laboratory experience spans HPLC, ELISA, qPCR, microbiological testing, and biochemical analysis, alongside food quality control within ISO 22000, HACCP, and GMP frameworks.</p><p>I am a co-first author of a <em>Nutrients</em> study on perceived versus actual dietary intake and a co-author of work on probiotics, fish preservation, and sustainable proteins. Teaching laboratory methods and serving as Vice President of the MUST Nutrition Society have also strengthened my skills in scientific communication, student support, and coordinating academic and community activities.</p>",
+  "education": [
+    {
+      "name": "The University of Hong Kong",
+      "dept": "LKS Faculty of Medicine · School of Public Health",
+      "position": "Master of Public Health<br>Epidemiology and Biostatistics",
+      "date": "Sep. 2025 – Aug. 2026",
+      "logo": "/assets/images/badges/hku.png"
+    },
+    {
+      "name": "Macau University of Science and Technology",
+      "dept": "Faculty of Medicine",
+      "position": "Bachelor of Food and Nutritional Sciences<br>GPA: 3.64/4.0 · Ranked 1/114 in 2024–2025",
+      "date": "Sep. 2021 – Jul. 2025",
+      "logo": "/assets/images/badges/must.png"
+    }
+  ],
+  "experience": [
+    {
+      "name": "The University of Hong Kong",
+      "dept": "School of Public Health",
+      "position": "Voluntary Research Assistant (Student Helper)",
+      "date": "Feb. – Jul. 2026",
+      "logo": "/assets/images/badges/hku.png"
+    },
+    {
+      "name": "Peking University People’s Hospital",
+      "dept": "Clinical Nutrition Department",
+      "position": "Nutritionist Assistant",
+      "date": "Jan. – Apr. 2025",
+      "logo": "/assets/images/badges/peoples-hospital.png"
+    },
+    {
+      "name": "Macau University of Science and Technology",
+      "dept": "Animal Center · Medical Sciences Division",
+      "position": "Research Assistant",
+      "date": "May – Sep. 2024",
+      "logo": "/assets/images/badges/must.png"
+    },
+    {
+      "name": "Macau University of Science and Technology",
+      "dept": "Faculty of Medicine",
+      "position": "Teaching Assistant",
+      "date": "Sep. 2023 – Dec. 2024",
+      "logo": "/assets/images/badges/must.png"
+    },
+    {
+      "name": "Macau University of Science and Technology",
+      "dept": "Faculty of Medicine",
+      "position": "Research Assistant",
+      "date": "Mar. – Dec. 2023",
+      "logo": "/assets/images/badges/must.png"
+    },
+    {
+      "name": "Guangzhou Restaurant Group Likoufu Food Co., Ltd.",
+      "dept": "Food quality control",
+      "position": "Quality Control Assistant",
+      "date": "Jul. – Aug. 2023",
+      "logo": "/assets/images/badges/guangzhou-restaurant.png"
+    }
+  ],
+  "awards": [
+    {
+      "name": "Dean’s Honor List · Faculty Scholarships",
+      "date": "2023 & 2025"
+    },
+    {
+      "name": "MUST Wanglaoji Future Elite Education Fund Scholarship",
+      "date": "2025"
+    },
+    {
+      "name": "Second Prize · World Obesity Day Popular Science Essay Competition, Xi’an Jiaotong University",
+      "date": "2025"
+    },
+    {
+      "name": "Award of Excellence · MUST Campus Entrepreneurship Plan Competition",
+      "date": "2024"
+    },
+    {
+      "name": "Project Innovation Award · “Winning in Guangzhou” and Greater Bay Area Entrepreneurship Competition",
+      "date": "2024"
+    },
+    {
+      "name": "Excellence Prize · National Standardization Olympiad for College Students",
+      "date": "2023"
+    }
+  ],
+  "cv_link": "/assets/files/Jiaheng-Han-CV.pdf",
+  "portrait_url": "/assets/images/photos/jiaheng-han.webp",
+  "portrait_caption": "Jiaheng Han",
+  "instagram": "hzg.99"
+}

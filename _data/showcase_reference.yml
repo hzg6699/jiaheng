@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "src": "/assets/images/carousel/guangzhou.webp",
+      "alt": "Three towers above a park in Guangzhou",
+      "position": "50% 18%"
+    },
+    {
+      "src": "/assets/images/carousel/festive-street.webp",
+      "alt": "Golden festive bells above a pedestrian street",
+      "position": "50% 48%"
+    },
+    {
+      "src": "/assets/images/carousel/macau-waterfront.webp",
+      "alt": "Macau waterfront with Macau Tower and the city skyline",
+      "position": "60% 50%"
+    }
+  ]
+}
