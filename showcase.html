@@ -1,0 +1,61 @@
+---
+layout: default
+title: Showcase
+navbar_title: Showcase
+---
+<link rel="stylesheet" href="{{ '/assets/css/showcase.css' | relative_url }}">
+<main class="row showcase-layout" aria-label="Showcase">
+  <div class="col-lg-8 showcase-primary">
+    <section class="card border-0 shadow-sm bg-white activities-card" aria-labelledby="work-title">
+      <div class="card-body p-4">
+        <h1 id="work-title" class="h4 mb-4">Academic & Professional Activities</h1>
+        <div class="album-grid">
+        {% for album in site.data.gallery %}{% unless album.id == 'certificates' %}
+          <button class="album-cover" type="button" data-album="{{ album.id }}" aria-haspopup="dialog" aria-label="Open {{ album.title }}: {{ album.count }} images">
+            <img src="{{ album.cover | relative_url }}" alt="{{ album.title }}" width="600" height="400" loading="lazy">
+            <span class="album-title">{{ album.title }}</span>
+            <span class="album-count">{{ album.count }} {% if album.count == 1 %}image{% else %}images{% endif %}</span>
+          </button>
+        {% endunless %}{% endfor %}
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <aside class="col-lg-4 mt-4 mt-lg-0 showcase-sidebar" aria-label="Showcase highlights and certificates">
+    <div class="card border-0 shadow-sm mb-4">
+      {% include widgets/carousel.html id="showcase-reference-carousel" images=site.data.showcase_reference.images height="295px" %}
+    </div>
+    {% for album in site.data.gallery %}{% if album.id == 'certificates' %}
+    <section class="card border-0 shadow-sm bg-white certificates-card" aria-labelledby="certificates-title">
+      <div class="card-body p-4 certificates-body">
+        <div class="d-flex flex-wrap align-items-baseline mb-3"><h2 id="certificates-title" class="h5 mb-2 mr-auto">Certificates & Awards</h2><span class="text-muted small">{{ album.count }} pages</span></div>
+        <div class="certificate-viewport"><div class="certificate-wall" id="certificate-wall">
+          {% for item in album.items %}
+          <a class="certificate-tile" {% if forloop.index > 9 %}hidden{% endif %} href="{{ item.src | relative_url }}" data-gallery="certificates" data-index="{{ forloop.index0 }}" aria-haspopup="dialog" aria-label="View {{ item.label }}">
+            <img src="{{ item.thumb | relative_url }}" alt="{{ item.label }}" width="{{ item.width }}" height="{{ item.height }}" loading="lazy">
+          </a>
+          {% endfor %}
+        </div></div>
+        <nav class="certificate-pagination" aria-label="Certificate pages">
+          <button type="button" id="certificates-previous" class="certificate-page-button" aria-label="Previous certificate page" aria-controls="certificate-wall" disabled>&#8249;</button>
+          <span id="certificates-page-status" class="small text-muted" aria-live="polite">1 / 3</span>
+          <button type="button" id="certificates-next" class="certificate-page-button" aria-label="Next certificate page" aria-controls="certificate-wall">&#8250;</button>
+        </nav>
+      </div>
+    </section>
+    {% endif %}{% endfor %}
+  </aside>
+  <!-- Future travel / interests area remains unpopulated. -->
+</main>
+<dialog id="album-dialog" class="gallery-dialog" aria-labelledby="album-heading">
+  <header class="gallery-header"><div><h2 id="album-heading" class="h4 mb-1"></h2><p id="album-summary" class="small text-muted mb-0"></p></div><button type="button" class="gallery-close" data-close="album-dialog" aria-label="Close album">&times;</button></header>
+  <div id="album-photos" class="album-photos"></div>
+</dialog>
+<dialog id="image-dialog" class="image-dialog" aria-labelledby="image-heading">
+  <header class="gallery-header"><div><h2 id="image-heading" class="h6 mb-1"></h2><span id="image-count" class="small text-muted" aria-live="polite"></span></div><button type="button" class="gallery-close" data-close="image-dialog" aria-label="Close image">&times;</button></header>
+  <div class="image-stage"><button type="button" id="previous-image" class="image-step" aria-label="Previous image">&#8249;</button><img id="full-image" alt=""><button type="button" id="next-image" class="image-step" aria-label="Next image">&#8250;</button></div>
+  <footer class="image-footer"><span class="small text-muted">Use arrow keys to browse</span><a id="original-image" target="_blank" rel="noopener">Open full-size image</a><a id="original-pdf" target="_blank" rel="noopener" hidden>Open original PDF</a></footer>
+</dialog>
+<script id="gallery-data" type="application/json">{{ site.data.gallery | jsonify }}</script>
+<script src="{{ '/assets/js/showcase.js' | relative_url }}" defer></script>
