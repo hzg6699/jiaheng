@@ -16,6 +16,7 @@
                                         <div class="small">{{ item.dept }}</div>
                                         <div class="small">
                                             <div>{{ item.position }}</div>
+                                            {% if item.thesis %}<div class="mt-1 mb-1"><strong>Thesis:</strong> {{ item.thesis }}</div>{% endif %}
                                             <div class="text-muted"><em>{{ item.date }}</em></div>
                                         </div>
                                     </div>

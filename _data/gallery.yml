@@ -410,22 +410,13 @@
         "label": "MUST Teaching Assistant — Photo 07"
       },
       {
-        "src": "/assets/gallery/must-teaching-assistant/image-008.webp",
-        "thumb": "/assets/gallery/must-teaching-assistant/image-008-thumb.webp",
-        "width": 2400,
-        "height": 1800,
-        "source": "IMG_0720.HEIC",
-        "page": 1,
-        "label": "MUST Teaching Assistant — Photo 08"
-      },
-      {
         "src": "/assets/gallery/must-teaching-assistant/image-009.webp",
         "thumb": "/assets/gallery/must-teaching-assistant/image-009-thumb.webp",
         "width": 1800,
         "height": 2400,
         "source": "IMG_0725.HEIC",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 09"
+        "label": "MUST Teaching Assistant — Photo 08"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-010.webp",
@@ -434,7 +425,7 @@
         "height": 2400,
         "source": "IMG_0726.HEIC",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 10"
+        "label": "MUST Teaching Assistant — Photo 09"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-011.webp",
@@ -443,16 +434,7 @@
         "height": 1800,
         "source": "IMG_0731.HEIC",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 11"
-      },
-      {
-        "src": "/assets/gallery/must-teaching-assistant/image-012.webp",
-        "thumb": "/assets/gallery/must-teaching-assistant/image-012-thumb.webp",
-        "width": 1440,
-        "height": 1080,
-        "source": "IMG_8922 2.JPG",
-        "page": 1,
-        "label": "MUST Teaching Assistant — Photo 12"
+        "label": "MUST Teaching Assistant — Photo 10"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-013.webp",
@@ -461,7 +443,7 @@
         "height": 1080,
         "source": "IMG_8922.JPG",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 13"
+        "label": "MUST Teaching Assistant — Photo 11"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-014.webp",
@@ -470,7 +452,7 @@
         "height": 1080,
         "source": "IMG_8923.JPG",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 14"
+        "label": "MUST Teaching Assistant — Photo 12"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-015.webp",
@@ -479,7 +461,7 @@
         "height": 2400,
         "source": "IMG_9463.HEIC",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 15"
+        "label": "MUST Teaching Assistant — Photo 13"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-016.webp",
@@ -488,7 +470,7 @@
         "height": 1278,
         "source": "WechatIMG1124.jpg",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 16"
+        "label": "MUST Teaching Assistant — Photo 14"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-017.webp",
@@ -497,7 +479,7 @@
         "height": 1280,
         "source": "WechatIMG1131.jpg",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 17"
+        "label": "MUST Teaching Assistant — Photo 15"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-018.webp",
@@ -506,7 +488,7 @@
         "height": 1280,
         "source": "WechatIMG1132.jpg",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 18"
+        "label": "MUST Teaching Assistant — Photo 16"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-019.webp",
@@ -515,7 +497,7 @@
         "height": 1280,
         "source": "WechatIMG1133.jpg",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 19"
+        "label": "MUST Teaching Assistant — Photo 17"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-020.webp",
@@ -524,7 +506,7 @@
         "height": 2400,
         "source": "WechatIMG899.jpg",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 20"
+        "label": "MUST Teaching Assistant — Photo 18"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-021.webp",
@@ -533,7 +515,7 @@
         "height": 1800,
         "source": "d0ddcfd0duc9f6ddf60c45bc06a28657.HEIC",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 21"
+        "label": "MUST Teaching Assistant — Photo 19"
       },
       {
         "src": "/assets/gallery/must-teaching-assistant/image-022.webp",
@@ -542,11 +524,11 @@
         "height": 1800,
         "source": "e95aa61ecl06103e436af3525b427591.HEIC",
         "page": 1,
-        "label": "MUST Teaching Assistant — Photo 22"
+        "label": "MUST Teaching Assistant — Photo 20"
       }
     ],
     "cover": "/assets/gallery/must-teaching-assistant/image-016-thumb.webp",
-    "count": 22
+    "count": 20
   },
   {
     "id": "likoufu-qc-assistant",

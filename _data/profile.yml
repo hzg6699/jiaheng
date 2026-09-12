@@ -21,16 +21,18 @@
     {
       "name": "The University of Hong Kong",
       "dept": "LKS Faculty of Medicine · School of Public Health",
-      "position": "Master of Public Health<br>Epidemiology and Biostatistics",
+      "position": "Master of Public Health<br>Epidemiology and Biostatistics<br>GPA: 3.01/4.3",
       "date": "Sep. 2025 – Aug. 2026",
-      "logo": "/assets/images/badges/hku.png"
+      "logo": "/assets/images/badges/hku.png",
+      "thesis": "Association Between Ultra-Processed Foods Consumption and the Risk of Inflammatory Bowel Disease: A Systematic Review and Meta-Analysis"
     },
     {
       "name": "Macau University of Science and Technology",
       "dept": "Faculty of Medicine",
       "position": "Bachelor of Food and Nutritional Sciences<br>GPA: 3.64/4.0 · Ranked 1/114 in 2024–2025",
       "date": "Sep. 2021 – Jul. 2025",
-      "logo": "/assets/images/badges/must.png"
+      "logo": "/assets/images/badges/must.png",
+      "thesis": "Dietary Awareness and Behaviors Among Cardiovascular Inpatients: A Cross-Sectional Study"
     }
   ],
   "experience": [
